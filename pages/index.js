@@ -30,7 +30,7 @@ export default function Home() {
               
             <ul className='flex items-center'>
               <li>
-                <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-xl'/>
+                <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-xl '/>
               </li>
               <li><a className='bg-gradient-to-r from-teal-200 to-lime-200 text-gray-800 px-4 py-2 rounded-md ml-8 font-extrabold' href="https://drive.google.com/file/d/1Cerl-yhPrzb-9X1dG8k96kRPLt1KFFpV/view?usp=sharing">Resume</a></li>
             </ul>
@@ -55,7 +55,7 @@ export default function Home() {
           <div className='text-center'>
             <h3 className='text-3xl py-1 text-teal-600'>Services I offer</h3>
             <p className='text-center text-md py-2 leading-8 text-gray-500 md:text-xl'>
-              Since the beginning of my journey as a Frontend Developer, I have had the opportunity to work with many technologies which has led me to building my own personal projects. I am also an expert in Brazilian Jiu Jitsu, currently holding a rank of Brown Belt under the esteemed <a href="https://www.bjjheroes.com/bjj-fighters/amal-easton"><span className='text-teal-600'>Professor Amal Easton</span></a>. 
+              Since the beginning of my journey as a Frontend Developer, I have had the opportunity to work with many technologies which has led me to building my own personal projects. I am also an expert in Brazilian Jiu Jitsu, currently holding a rank of Brown Belt under the esteemed <a href="https://www.bjjheroes.com/bjj-fighters/amal-easton"><span className='text-blue-400'>Professor Amal Easton</span></a>. 
             </p>
             <p className='text-md py-2 leading-8 text-gray-500'>I offer a wide range of services both in the software development industry as well as on the jiu-jitsu mats, including programming and software design. As well as the ability to teach Brazilian Jiu Jitsu</p>
           </div>
