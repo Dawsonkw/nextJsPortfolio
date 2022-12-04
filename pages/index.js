@@ -30,7 +30,7 @@ export default function Home() {
               
             <ul className='flex items-center'>
               <li>
-                <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-xl '/>
+                <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-xl text-gray-500'/>
               </li>
               <li><a className='bg-gradient-to-r from-teal-200 to-lime-200 text-gray-800 px-4 py-2 rounded-md ml-8 font-extrabold' href="https://drive.google.com/file/d/1Cerl-yhPrzb-9X1dG8k96kRPLt1KFFpV/view?usp=sharing">Resume</a></li>
             </ul>
