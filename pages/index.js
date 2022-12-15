@@ -2,7 +2,7 @@ import Head from 'next/head'
 import {BsFillMoonStarsFill} from 'react-icons/bs'
 import {AiFillInstagram, AiFillLinkedin, AiFillGithub} from 'react-icons/ai'
 import Image from "next/image";
-import profilePic from "/public/portfolioPicFinal.png"
+import profilePic from "/public/image000000.jpg"
 import kitsune from "/public/kitsune-icon-final.png"
 import port1 from "/public/001.png"
 import port2 from "/public/002.png"
@@ -10,6 +10,8 @@ import port3 from "/public/003.png"
 import port4 from "/public/004.png"
 import { useState } from 'react';
 import {theme, useTheme } from "next-themes";
+import ThemeToggle from '/components/darkmodeToggle';
+import styled from '@emotion/styled';
 
 
 export default function Home() {
@@ -31,6 +33,7 @@ export default function Home() {
             <ul className='flex items-center'>
               <li>
                 <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-xl text-gray-500'/>
+                
               </li>
               <li><a className='bg-gradient-to-r from-teal-200 to-lime-200 text-gray-800 px-4 py-2 rounded-md ml-8 font-extrabold' href="https://drive.google.com/file/d/1Cerl-yhPrzb-9X1dG8k96kRPLt1KFFpV/view?usp=sharing">Resume</a></li>
             </ul>
