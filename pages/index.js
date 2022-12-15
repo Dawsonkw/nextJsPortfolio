@@ -40,7 +40,7 @@ export default function Home() {
           </nav>
           <div className='text-center p-10'>
             <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl'>Dawson Woolley</h2>
-            <h3 className='text-2xl py-2 md:text-3xl text-gray-500'>Frontend developer and designer</h3>
+            <h3 className='text-2xl py-2 md:text-3xl text-gray-500'>Frontend developer</h3>
             <p className='text-md py-5 leading-8 text-gray-500 md:text-xl'>I am a software engineer with a passion for frontend development and design. </p>
             <p className='text-md py-5 leading-8 text-gray-500 md:text-xl'>I am currently seeking fulltime employment</p>
           </div>
@@ -110,6 +110,38 @@ export default function Home() {
                 <Image src={port3} className="rounded-lg object-cover"width={'100%'} height={'100%'}/>
                 <a href="https://github.com/Dawsonkw/nasaAPODapp" className='text-blue-400'>Code</a>
               </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div className='text-center'>
+            <h3 className='text-3xl py-1 text-teal-600'>Services I offer</h3>
+            <p className='text-center text-md py-2 leading-8 text-gray-500 md:text-xl'>
+              Since the beginning of my journey as a Frontend Developer, I have had the opportunity to work with many technologies which has led me to building my own personal projects. I am also an expert in Brazilian Jiu Jitsu, currently holding a rank of Brown Belt under the esteemed <a href="https://www.bjjheroes.com/bjj-fighters/amal-easton"><span className='text-blue-400'>Professor Amal Easton</span></a>. 
+            </p>
+            <p className='text-md py-2 leading-8 text-gray-500'>I offer a wide range of services both in the software development industry as well as on the jiu-jitsu mats, including programming and software design. As well as the ability to teach Brazilian Jiu Jitsu</p>
+          </div>
+          <div className='lg:flex gap-10'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white' >
+              <Image src={kitsune} class='object-none object-center m-auto'/>
+              <h3 className='text-lg font-medium pt-8 pb-2 text-teal-600'>Beautiful and Responsive Design</h3>
+              <p>Creating elegant and highly responsive designs for whatever project you may have in mind. 
+              </p>
+              <h4 className='text-gray-500'>Technologies I work with</h4>
+              <p className='text-gray-500 py-1'>Javascript</p>
+              <p className='text-gray-500 py-1'>React</p>
+              <p className='text-gray-500 py-1'>HTML / CSS</p>
+              <p className='text-gray-500 py-1'>Tailwind</p>
+              <p className='text-gray-500 py-1'>Python</p>
+              <p className='text-gray-500 py-1'>Sqlite</p>
+            </div>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white place-content-center'>            
+            <Image src={kitsune} class='object-none object-center m-auto'/>            
+              <h3 className='text-lg font-medium pt-8 pb-2 text-teal-600'>Brazilian Jiu Jitsu Lessons</h3>
+              <p>I am available to teach private and small group lessons in Brazilian Jiu Jitsu. 
+              </p>
+              <h4> Reach out to me to get started or continue training in the fun and challenging sport of Brazilian Jiu Jitsu</h4>
+              
             </div>
           </div>
         </section>
