@@ -71,9 +71,7 @@ class Contact extends Component {
                                     <span>Longmont, Colorado</span>
                                 </div>
                             </div>
-                            <div className='flex flex-row space-x-4 text-3xl text-teal-600'>
-                                <a href="#"><FiFacebook /></a>
-                            </div>                 
+                                          
                         </div>
                         <div className='relative'>
                             <div className='absolute w-40 h-40 bg-tan rounded-full -right-20 -top-20'></div>
