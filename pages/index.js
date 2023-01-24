@@ -10,7 +10,7 @@ import port3 from "/public/003.png"
 import port4 from "/public/004.png"
 import port5 from "/public/005.png"
 import port6 from "/public/006.png"
-import port7 from "/public/007.png"
+import port8 from "/public/008.png"
 import { useState } from 'react';
 import {theme, useTheme } from "next-themes";
 import ThemeToggle from '/components/darkmodeToggle';
@@ -102,6 +102,11 @@ export default function Home() {
             <h3 className='text-3xl py-1 text-teal-600'>Portfolio</h3>
             <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
             <div className='basis-1/3 flex-1'>
+                <h3 className='text-xl text-gray-500'>The Otter MMA News App</h3>
+                <Image src={port8} className="rounded-lg object-cover"width={'100%'} height={'100%'}/>
+                <a href="https://github.com/Dawsonkw/ReactNewsApp" className='text-blue-400'>Code</a>
+              </div>
+            <div className='basis-1/3 flex-1'>
                 <h3 className='text-xl text-gray-500'>Woolley Woodworking</h3>
                 <p className='text-red-500'>The Woolley Woodworking webpage is currently awaiting professionally shot assets and information from the Artist in regards to history, pricing and Company Logo. As such the website has not been deployed, I will continue to update as assets are added and do a live deploy when these conditions are met. The current gallery is populated with placeholder images from the Artist.</p>
                 <Image src={port6} className="rounded-lg object-cover"width={'100%'} height={'100%'}/>
@@ -132,6 +137,7 @@ export default function Home() {
                 <Image src={port3} className="rounded-lg object-cover"width={'100%'} height={'100%'}/>
                 <a href="https://github.com/Dawsonkw/nasaAPODapp" className='text-blue-400'>Code</a>
               </div>
+              
               
             </div>
           </div>
